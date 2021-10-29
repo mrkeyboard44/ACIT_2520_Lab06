@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movieflix</title>
+</head>
+
+<body>
+    <div class="header"><span class="subheader">Hi <%= username %>,</span><br> <span class="subheader"> Welcome back 🍿</span></div>
+    <div class="container">
+        <form action="/myForm" method="post">
+            <textarea name="movie_list">Movies seperated by comma</textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
